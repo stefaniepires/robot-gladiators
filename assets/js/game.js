@@ -85,7 +85,7 @@ var endGame = function() {
     if (playerInfo.health > 0) {
         alert("Great job, you've survived the game! You now have a score of " + playerInfo.money + ".");
     } else {
-        alert("You've lost your robot in battle :(");
+        alert("You've lost your robot in battle! :(");
     }
     var playAgainConfirm = confirm("Would you like to play again?");
         if (playAgainConfirm) {
@@ -155,7 +155,7 @@ var playerInfo = {
 };
 var enemyInfo = [
     {
-        name: "RobOrto",
+        name: "Roborto",
         attack: randomNumber(10, 14)
     },
     {
